@@ -7,3 +7,17 @@ body{
 background-color: var(--cor-de-fundo);
 margin: 0;
 }
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    padding: 1em;
+    }
+    .container{
+    display: flex;
+    align-items: center;
+    }
+    .container imagem, .container frase{
+    padding: 1em;
+    }
+    .container titulo, .container frase{
+    display:none;
+    }
